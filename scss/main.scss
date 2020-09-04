@@ -1,5 +1,6 @@
 @import 'config';
 @import 'home';
+@import 'menu';
 
 body {
     background: $primary-color;
@@ -16,6 +17,17 @@ h1, h2, h3 {
 a {
     color: set-text-color($primary-color);
     text-decoration: none;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1vh 1vh 0 0;
+}
+
+li {
+    margin-left: 5vh;
+    list-style: none;
 }
 
 header {

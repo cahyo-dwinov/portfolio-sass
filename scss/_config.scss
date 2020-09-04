@@ -3,11 +3,11 @@ $secondary-color: #ff652f;
 
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
-@mixin transition-ease {
+@mixin transition-ease { 
     transition: all 0.5s ease-in-out;
 }
 
