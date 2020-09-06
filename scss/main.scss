@@ -19,16 +19,16 @@ a {
     text-decoration: none;
 }
 
-ul {
-    display: flex;
-    justify-content: flex-start;
-    padding: 1vh 1vh 0 0;
-}
+// ul {
+//     display: flex;
+//     justify-content: flex-start;
+//     padding: 1vh 1vh 0 0;
+// }
 
-li {
-    margin-left: 5vh;
-    list-style: none;
-}
+// li {
+//     margin-left: 5vh;
+//     list-style: none;
+// }
 
 header {
     position: fixed;
@@ -47,8 +47,9 @@ main {
         left: 1rem;
 
         a {
-            padding: 1rem;
+            padding: 0.4rem;
             @include transition-ease;
+            
             &:hover {
                 color: $secondary-color;
             }
